@@ -1,0 +1,20 @@
+
+li {
+    list-style: none;
+    float: right;
+    margin-right: 25px;
+    padding-top: 5px;
+    border-top: solid 3px black; 
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#edad{
+    display: block;
+}

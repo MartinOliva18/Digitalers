@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../HTML/index.html">Home</a></li>
+                <li></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Formulario</h1>
+
+        <form action="formulario.js" method="post"> 
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre completo">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Escriba su edad" min="0" max="99">
+            <br>
+            <label for="fecha_de_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento" placeholder="Escriba su fecha de nacimiento">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" minlength="5" maxlength="8" placeholder="Ingrese su contraseña">
+            <br>
+            <label for="imagen">Foto de perfil:</label>
+            <input type="file" name="imagen" id="imagen">
+
+
+
+            
+
+
+        </form>
+
+
+
+
+    </main>
+</body>
+</html>
