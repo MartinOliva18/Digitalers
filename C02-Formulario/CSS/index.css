@@ -1,20 +1,76 @@
 
+
+*{
+font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
+}
+
+
+
+
 li {
     list-style: none;
     float: right;
     margin-right: 25px;
-    padding-top: 5px;
+    padding-top: 20px;
     border-top: solid 3px black; 
+  
 }
 
 a{
     text-decoration: none;
+   
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(110, 101, 132);
 }
 
 #edad{
     display: block;
+}
+
+.botones{
+    text-align:center;
+
+}
+
+button{
+    padding:15px;
+    width:250px;
+    color:white;
+    border-radius:15px;
+    background-color:blue;
+    border: 1px solid black;
+}
+
+input{
+    background-color: rgb(103, 230, 221);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left:20px;
+    margin-top: 7px;
+}
+
+select{
+    background-color: rgb(103, 230, 221);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left:20px;
+    margin-top:7px;
+
+}
+
+main{
+    text-align: center;
 }
