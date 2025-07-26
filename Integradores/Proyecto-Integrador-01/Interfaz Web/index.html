@@ -1,62 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Proyecto Integrador 01</title>
 </head>
+
 <body>
     <nav>
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
+            <li>
+                <a href="./index.html">Home</a>
+                <a href="#servicioswwwapas">Servicios</a>
+                <a href="#contactowwwapas">Contacto</a>
+            </li>
         </ul>
     </nav>
 
     <main>
-    <h1>WWWWAPAS</h1>
-    <ul>
-        <li><h3>Inicio Servicios Contacto</h3><br></li>
-    </ul>
+        <section>
+            <h1>WWWWAPAS</h1>
+            <ul>
+                <li>
+                    <h3>Inicio Servicios Contacto</h3><br>
+                </li>
+            </ul>
 
-    <h2><b>Somos wwwwapas</b></h2>
-    <h3>Social media managers | Creadoras de contenido</h3>
-    <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio, <b>!Creamos relaciones estables y duraderas con tus clientes!</b></p><br>
-    <p><b>¡Hola! Somos SOFI & JULIA,</b></p>
-    <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu marca <b>¡Somos el complemento que necesitas para hacer crecer tu marca!¡Somos wwwwapas!</b></p><br>
-    <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
-    <p>La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto antes y aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto <b>Aumentá tu presencia digital y generá nuevas ventas y contactos!</b></p><br>
+            <h2><b>Somos wwwwapas</b></h2>
+            <h3>Social Media Managers | Creadoras de Contenido</h3>
+            <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio,
+                <b>!Creamos relaciones estables y duraderas con tus clientes!</b>
+            </p><br>
+            <p><b><span>¡Hola! Somos SOFI & JULIA,</span></b></p>
+            <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
+                diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu
+                marca <b>¡Somos el complemento que necesitas para hacer crecer tu marca!¡Somos wwwwapas!</b></p><br>
+            <h3><span>GESTIONAMOS TUS REDES SOCIALES</span></h3>
+            <p>La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto
+                antes y aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto
+                <b>Aumentá tu presencia digital y generá nuevas ventas y contactos!</b>
+            </p><br>
+        </section>
+
+        <section>
+            <h2 id="servicioswwwapas"><span>Nuestros Servicios:</span></h2>
+            <ol start="1">
+                <li>Análisis de perfil (Benchmarking)</li>
+                <li>Revisión y activación de canales</li>
+                <li>Gestión, creación y diseño de contenido</li>
+                <li>Respuestas a mensajes y consultas</li>
+                <li>Segmentación de promocioines según el público objetivo</li>
+                <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+                <li><span>¡Empezamos a comunicar!</span></li>
+            </ol>
+        </section>
+
+        <section>
+            <h4><span>Queres que nos</span> contactemos con vos?</h4>
+            <a id="contacto"></a>
+            <p>Envianos tu consulta:</p>
+
+            <form action="" method="post">
+                <label for class="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su Nombre"><br>
+                <label for class="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Ingrese su mail de contacto"><br>
+                <label for class="mensaje">Consulta:</label>
+                <input type class="textarea" name="mensaje" id="mensaje" placeholder="Deje aquí su mensaje"><br>
+
+                <button type="submit"> Enviar </button>
+                <button type="reset"> Reiniciar</button>
 
 
-    <h2>Nuestros Servicios:</h2>
-    <ol start="1">
-        <li>Análisis de perfil (Benchmarking)</li>
-        <li>Revisión y activación de canales</li>
-        <li>Gestión, creación y diseño de contenido</li>
-        <li>Respuestas a mensajes y consultas</li>
-        <li>Segmentación de promocioines según el público objetivo</li>
-        <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-        <li>¡Empezamos a comunicar!</li>
-    </ol>
-</main>
+            </form>
+        </section>
 
-<footer>
-    <section>
-        Nuestras redes: 
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>TikTok</li>
-        </ul>
-    </section>
+        <section>
+            <div>
+                <p>Nuestras redes:</p>
 
 
-    <adress>
-        ....La Rioja, Capital...(CP 5300)..
-    </adress>
-</footer>
+                <div>
+                    <a title="Instagram educacion it" href="https://www.instagram.com/educacionit/" target="_blank">
+                        <img src="./img/instagram.png" alt="instagram" </a>
+                </div>
 
-    <h2></h2>
+                <div>
+                    <a title="dribbble"><img src="./img/dribbble.png" alt="dribble"></a>
+                </div>
+
+                <div>
+                    <a title="linkedin"><img src="./img/linkedin.png" alt="linkeIn"></a>
+                </div>
+
+                <div>
+                    <a title="facebook educacion" href="https://www.facebook.com/EducacionIT/" target="_blank">
+                        <img src="./img/facebook.png" alt="facebook"></a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1>
+            <a href="./index.html"> Al inicio: wwwapas</a>
+        </h1>
+
+
+        <h2 id="contactowwwapas">Contacto wwwapas:</h2>
+        <a href="mailto: wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a><br>
+
+
+        <adress>
+            ....La Rioja, Capital...(CP 5300)..
+        </adress>
+
+    </footer>
+
+
 </body>
+
 </html>

@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
         rel="stylesheet">
 
+
+
     <title>Formularios</title>
 </head>
 
@@ -37,9 +39,8 @@
             <input type="number" name="edad" id="edad" placeholder="Escriba su edad" min="0" max="99" step="1">
             <br>
 
-            <label for="fecha_de_nacimiento">Fecha de nacimiento:</label>
-            <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento"
-                placeholder="Escriba su fecha de nacimiento" required>
+            <label for="fechadenacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fechadenacimiento" id="fechadenacimiento" required>
             <br>
 
             <label for="password">Password:</label>
@@ -76,30 +77,21 @@
             <br>
 
             <label for="imagen">Foto de perfil:</label>
-            <input type="file" name="imagen" id="imagen" accept=".jpg, .png, jpeg, .pdf" multiple>
+            <input type="file" name="imagen" id="imagen" accept=".jpg/.png/jpeg/.pdf" multiple>
             <br>
 
             <div class="botones">
                 <button type="submit">Enviar datos</button>
 
                 <button type="reset">Limpiar campos</button>
-
             </div>
 
-
-
-
-
-
-
-
-
         </form>
-
-
-
-
     </main>
+
+
+    <script src="../js/index.js"></script>
+
 </body>
 
 </html>
